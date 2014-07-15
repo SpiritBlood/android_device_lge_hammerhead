@@ -1,10 +1,14 @@
 [
  {
-   "repository": "android_kernel_lge_hammerhead",
-   "target_path": "kernel/lge/hammerhead"
+   "remote": "no",
+   "repository": "kernel_lge_hammerhead",
+   "target_path": "kernel/lge/hammerhead",
+   "revision": "kitkat"
  },
  {
+   "remote": "cm",
    "repository": "android_device_qcom_common",
-   "target_path": "device/qcom/common"
+   "target_path": "device/qcom/common",
+   "revision": "cm-11.0"
  }
 ]
