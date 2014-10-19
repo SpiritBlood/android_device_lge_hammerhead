@@ -118,6 +118,9 @@ BOARD_SEPOLICY_DIRS := \
 TARGET_KERNEL_CONFIG := cyanogenmod_hammerhead_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/hammerhead
 
+# Enable ArchiDroid Optimizations
+USE_ARCH_OPTIMIZATIONS=true
+
 # The list below is order dependent
 BOARD_SEPOLICY_UNION := \
        device.te \
